@@ -1,0 +1,4 @@
+SELECT name
+FROM CITY
+WHERE POPULATION > 120000 and  countrycode='USA'
+ORDER BY ID;
